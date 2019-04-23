@@ -5,6 +5,10 @@
 
 ## Sentimental analysis on drugs data using AFFIN dictonary
 
+[AFFIN dictonary](https://drive.google.com/file/d/0ByJLBTmJojjzZ0d1RVdBTDVjT28/view)
+
+[drugs dataset](https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29)
+
 - Create table drugs and scores
 - Split column into words into new temp table drugs_words
 - Now using explode function make new rows for every word into new temp table drugs_words_exploded
