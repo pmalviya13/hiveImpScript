@@ -4,18 +4,17 @@
 	select from_unixtime(cast(tag_time as bigint)) from tags limit 10;
 
 ## Sentimental analysis on drugs data using AFFIN dictonary
--create table drugs and scores
 
--split column into words into new temp table drugs_words
-
--now using explode function make new rows for every word into new temp table drugs_words_exploded
-
--now apply inner join on drugs_words_exploded and scores which results score of each word
-
--apply calculate sum of score for each drug_id from words_scores and store it into tble final
-
--create new table final_reviews by inner join on final and drugs which contain drug_id,score,and review
-
+- Create table drugs and scores
+- Split column into words into new temp table drugs_words
+- Now using explode function make new rows for every word into new temp table drugs_words_exploded
+- Now apply inner join on drugs_words_exploded and scores which results score of each word
+- Apply calculate sum of score for each drug_id from words_scores and store it into tble final
+- Create new table final_reviews by inner join on final and drugs which contain drug_id,score,and review
+- George Washington
+- John Adams
+- Thomas Jefferson
+<br>
 
 	create external table scores
 	(
