@@ -11,6 +11,7 @@
 - Now apply inner join on drugs_words_exploded and scores which results score of each word
 - Apply calculate sum of score for each drug_id from words_scores and store it into tble final
 - Create new table final_reviews by inner join on final and drugs which contain drug_id,score,and review
+
 	create external table scores
 	(
 	word string, 
